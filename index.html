@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Registration</title>
+</head>
+<body>
+<div class="details">
+        <label>First Name:</label>
+        <input type="text" id="firstname" value=""><br>
+
+        <label>Last Name:</label>
+        <input type="text" id="lastname" value=""><br>
+   
+        <label>address:</label>
+        <input type="text" id="address" value=""><br>
+
+        <label>Pincode:</label>
+        <input type="number" id="pincode" value=""><br>
+
+        <label>Country:</label>
+        <input type="text" id="country" value=""><br>
+
+        <label>State:</label>
+        <input type="text" id="state" value=""><br>
+        
+        <label>Gender:</label>
+        <label for="gender-male" > Male </label>
+        <input type="radio" name="gender-choice" value="">
+        <label for="gender-female" > female </label>
+        <input type="radio" name="gender-choice" value="">
+        <label for="gender-other" > other </label>
+        <input type="radio" name="gender-choice" value=""><br>
+
+        <label>Choice of food</label>
+        <select id="menu1">
+                <option value="">select</option>
+                <option value="Fish curry">Fish curry</option>
+                <option value="Chicken tikka masala">Chicken tikka masala</option>
+                <option value="Palak paneer">Palak paneer</option>
+                <option value="Butter chicken">Butter chicken</option>
+                <option value="Chana masala">Chana masala</option>
+            </select>
+       
+
+<br />
+<button  onclick="myfunction()">submit</button>
+<br />
+</div>
+
+            <br/>
+<table id="mytable" >
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>lastname</th>
+      <th>address</th>
+      <th>pincode</th>
+      <th>Country</th>
+      <th>State</th>
+      <th>gender</th>
+      <th>food</th>
+    </tr>
+    <tr>
+      <th id="demo"></th>
+      <th id="demo1"></th>
+      <th id="demo2"></th>
+      <th id="demo3"></th>
+      <th id="demo4"></th>
+      <th id="demo5"></th>
+      <th id="demo6"></th>
+      <th id="demo7"></th>
+      </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+    
+<script src="./script.js"></script> 
+</body>
+
+</html>

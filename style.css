@@ -1,0 +1,30 @@
+body{
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px; 
+    margin: 20px;
+    background-color: rgb(206 228 241);
+} 
+.name{
+    width: 300px;
+    padding: 5px;
+}
+#mytable{
+padding: 20px;
+margin: 20px;
+    width: 100%;
+}
+
+.details{
+    position: relative;
+    left: 700px;
+    margin: 20px;
+    padding: 20px;
+
+}
+table, th, td {
+    border: 1px solid black;
+    width: 100px;
+    padding: 10px;
+    background-color: #d0cef1;
+  }
